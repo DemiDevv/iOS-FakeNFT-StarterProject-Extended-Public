@@ -96,11 +96,11 @@
 - `ViewModel` реализован через `@Observable` или `@Published` (ObservableObject)  
 - Используются модификаторы состояния:  
 
-`@State           – локальное состояние View`
-`@Binding         – передача состояния между View`
-`@StateObject     – хранение ViewModel`
-`@ObservedObject  – подписка на ViewModel`
-`@EnvironmentObject – общие данные`
+- `@State           – локальное состояние View`
+- `@Binding         – передача состояния между View`
+- `@StateObject     – хранение ViewModel`
+- `@ObservedObject  – подписка на ViewModel`
+- `@EnvironmentObject – общие данные`
 
 * Сеть: асинхронные запросы (`async/await`)
 * Акторы (`actor`) для потокобезопасности
